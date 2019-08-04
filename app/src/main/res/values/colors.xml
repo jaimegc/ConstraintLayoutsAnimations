@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black">#000000</color>
+    <color name="blue">#0000ff</color>
+
+    <color name="rainbow_red">#E57373</color>
+    <color name="rainbow_orange">#FFB74D</color>
+    <color name="rainbow_yellow">#FFF176</color>
+    <color name="rainbow_green">#81C784</color>
+    <color name="rainbow_blue">#64B5F6</color>
+    <color name="rainbow_purple">#9575CD</color>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.jaimegc.constraintlayouts">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".AnimationCodingInFlowCollapseExpandActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".OtherProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".OtherActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".OtherSameActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".OtherProfileSameActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".CatsLandscapeActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".AspectRatioActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".AnimationCodingInFlowActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".LottieActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PhysicsBasedActivity" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
