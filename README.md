@@ -7,5 +7,5 @@ This repo is an example using ConstraintLayouts and some basic animations. If yo
 ## Screen
 
 <p align="left">
-  <img src="image.jpg">
+  <img src="image.jpg" width="280">
 </p>
