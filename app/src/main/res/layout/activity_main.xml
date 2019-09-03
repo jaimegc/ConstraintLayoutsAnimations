@@ -168,4 +168,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
         app:layout_constraintTop_toBottomOf="@+id/exchange"/>
+
+    <Button
+        android:text="Collapse Expand Other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/collapse_expand_other"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="onClickButton"
+        app:layout_constraintTop_toBottomOf="@+id/physics_based"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

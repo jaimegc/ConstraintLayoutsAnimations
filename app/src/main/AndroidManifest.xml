@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AnimationCodingInFlowCollapseExpandActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".AnimationCodingInFlowCollapseExpandOtherActivity" android:screenOrientation="portrait"/>
         <activity android:name=".OtherProfileActivity" android:screenOrientation="portrait"/>
         <activity android:name=".OtherActivity" android:screenOrientation="portrait"/>
         <activity android:name=".OtherSameActivity" android:screenOrientation="portrait"/>

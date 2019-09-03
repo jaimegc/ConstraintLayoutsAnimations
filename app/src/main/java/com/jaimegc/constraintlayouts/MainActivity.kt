@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
             R.id.collapse_expand -> intent = Intent(this, AnimationCodingInFlowCollapseExpandActivity::class.java)
             R.id.lottie -> intent = Intent(this, LottieActivity::class.java)
             R.id.physics_based -> intent = Intent(this, PhysicsBasedActivity::class.java)
+            R.id.collapse_expand_other -> intent = Intent(this, AnimationCodingInFlowCollapseExpandOtherActivity::class.java)
         }
 
         intent?.let {
